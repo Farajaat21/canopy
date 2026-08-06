@@ -1,0 +1,32 @@
+name: Canopy
+options:
+  bundleIdPrefix: dev.canopy
+  deploymentTarget:
+    macOS: "14.0"
+  developmentLanguage: en
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MACOSX_DEPLOYMENT_TARGET: "14.0"
+    ENABLE_HARDENED_RUNTIME: YES
+    CODE_SIGN_STYLE: Manual
+    CODE_SIGN_IDENTITY: "-"
+targets:
+  Canopy:
+    type: application
+    platform: macOS
+    deploymentTarget: "14.0"
+    sources:
+      - path: Canopy
+        excludes:
+          - "Info.plist"
+          - "Canopy.entitlements"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.canopy.app
+        PRODUCT_NAME: Canopy
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: Canopy/Info.plist
+        CODE_SIGN_ENTITLEMENTS: Canopy/Canopy.entitlements

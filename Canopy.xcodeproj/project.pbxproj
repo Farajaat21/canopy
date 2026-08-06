@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AF1CF0C84F3A7926BAA180D /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE50DFF37657A9A2F02E5BA /* AppSettings.swift */; };
+		0B2CE3C598F77E56A328D2C0 /* tvos-17-music-now-playing-lyrics-callout.png in Resources */ = {isa = PBXBuildFile; fileRef = 971654765F2AFB5EBE16F201 /* tvos-17-music-now-playing-lyrics-callout.png */; };
+		0B3DEDA93BFC92D30A15197D /* LaunchAtLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45AC12475086A8C5BC239C /* LaunchAtLogin.swift */; };
+		0DB9386AC256944A17ADFEE5 /* LyricLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DB9AB5F8EB12E793FC7E8B /* LyricLine.swift */; };
+		1423C5B6661183396A71E2D4 /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60720079642BC2655178532F /* PreferencesView.swift */; };
+		2CBE766E14856F7E6FF7EECE /* PreferencesWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603E1FF6719A7271953BB644 /* PreferencesWindowController.swift */; };
+		2CC7618EDE1D8DCCE89F2107 /* LongScreenWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984D444CA0BADA1BBF2D8C81 /* LongScreenWindowController.swift */; };
+		30FDF3C68F6830962F4CDAFE /* MenuBarContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30847898D8E0EA0A6462C8F /* MenuBarContentView.swift */; };
+		337766B623DC3E11C91C5986 /* MusicAppSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8588214CF36A8293B0883E22 /* MusicAppSource.swift */; };
+		39EABB3B85D004967A7EE7B4 /* NotchPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A49EE797485AC04FC1A1D8 /* NotchPanel.swift */; };
+		3DF95F205E28AAE7C0B4D26B /* NotchPillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FC035BC395EB8DDBD8D246 /* NotchPillView.swift */; };
+		3EBAA50068A2135CCAD54EA6 /* LRCParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FAD583D8307B6F04B28C27 /* LRCParser.swift */; };
+		42AA9C651CBB55431CE53C4F /* LongScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA21829ED6F42B1D6DF98E04 /* LongScreenView.swift */; };
+		508098F16DADF7E9958710B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207D6F21BDD73AB41B540B07 /* AppDelegate.swift */; };
+		54427DFAD8412193FCA2A978 /* GlobalHotKeyMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D55AB70B004C48D970C70E1 /* GlobalHotKeyMonitor.swift */; };
+		61769E4D45542C8A520C513E /* AudioOutputMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A457338E72CD06ACC98CC2 /* AudioOutputMonitor.swift */; };
+		6B6BF7C699FAE6602A59DCE6 /* DisplaySleepAssertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8FD411D918AF4ED013460 /* DisplaySleepAssertion.swift */; };
+		6DBC1D311CA8145353A7247C /* IdleActivityMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2561C348486FEAD5434AB3A1 /* IdleActivityMonitor.swift */; };
+		6F0B72ECCA7DCBBF35D92CCB /* AppleScriptRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636E4D251B28EFC57267D43E /* AppleScriptRunner.swift */; };
+		79D4DA463D24FDEB3FDC5618 /* NotchWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38126BD6A98F86B9623869F /* NotchWindowController.swift */; };
+		83DF3D585BCED70BAAFD272F /* LongScreenWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D9027CDBF92823D8EA7FCA /* LongScreenWindow.swift */; };
+		857E9268A11856D6B710CC5E /* NowPlayingSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A787407C9CA408BBE631F8 /* NowPlayingSource.swift */; };
+		9860C00CB1EFD92C21567675 /* LyricsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8334B87EB89BE74E8136F0 /* LyricsProvider.swift */; };
+		99ECAE382C6BB8858F95C0F1 /* SpotifyAppSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EB264B7AB41B76E560A1A4 /* SpotifyAppSource.swift */; };
+		C5078103155239162BC33C1C /* NowPlayingInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF357F74BE1DCD052FC28083 /* NowPlayingInfo.swift */; };
+		DC1AE2DBB89860E6F24FA2F2 /* NotchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9199843B0AC4AEB2EA5965D4 /* NotchViewModel.swift */; };
+		DC2A02431826ED9FD6E917D8 /* q7w07w6ohga51.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E87B5106C166906FC8C22009 /* q7w07w6ohga51.jpg */; };
+		DEAC7A9B66567CBC500ABA2B /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10645F3C32FFED1C958C86B /* AppCoordinator.swift */; };
+		E21D049F27EBB80528554F5E /* CanopyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9329C737C6008DE0B02F21D0 /* CanopyApp.swift */; };
+		E3AA85180B042396AF02C61A /* NotchGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B3E2E424ABA117E8DF1571 /* NotchGeometry.swift */; };
+		EDA55A3ABC6F0647A6D96561 /* NowPlayingMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D4217AD977AE8FCE60C4A5 /* NowPlayingMonitor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03A457338E72CD06ACC98CC2 /* AudioOutputMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioOutputMonitor.swift; sourceTree = "<group>"; };
+		0AF8FD411D918AF4ED013460 /* DisplaySleepAssertion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplaySleepAssertion.swift; sourceTree = "<group>"; };
+		13A49EE797485AC04FC1A1D8 /* NotchPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchPanel.swift; sourceTree = "<group>"; };
+		207D6F21BDD73AB41B540B07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2561C348486FEAD5434AB3A1 /* IdleActivityMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdleActivityMonitor.swift; sourceTree = "<group>"; };
+		2D55AB70B004C48D970C70E1 /* GlobalHotKeyMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHotKeyMonitor.swift; sourceTree = "<group>"; };
+		55A787407C9CA408BBE631F8 /* NowPlayingSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingSource.swift; sourceTree = "<group>"; };
+		57FC035BC395EB8DDBD8D246 /* NotchPillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchPillView.swift; sourceTree = "<group>"; };
+		603E1FF6719A7271953BB644 /* PreferencesWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesWindowController.swift; sourceTree = "<group>"; };
+		60720079642BC2655178532F /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
+		60EB264B7AB41B76E560A1A4 /* SpotifyAppSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyAppSource.swift; sourceTree = "<group>"; };
+		636E4D251B28EFC57267D43E /* AppleScriptRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleScriptRunner.swift; sourceTree = "<group>"; };
+		73FAD583D8307B6F04B28C27 /* LRCParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRCParser.swift; sourceTree = "<group>"; };
+		8588214CF36A8293B0883E22 /* MusicAppSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAppSource.swift; sourceTree = "<group>"; };
+		8C45AC12475086A8C5BC239C /* LaunchAtLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAtLogin.swift; sourceTree = "<group>"; };
+		9199843B0AC4AEB2EA5965D4 /* NotchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchViewModel.swift; sourceTree = "<group>"; };
+		91B3E2E424ABA117E8DF1571 /* NotchGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchGeometry.swift; sourceTree = "<group>"; };
+		9329C737C6008DE0B02F21D0 /* CanopyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanopyApp.swift; sourceTree = "<group>"; };
+		971654765F2AFB5EBE16F201 /* tvos-17-music-now-playing-lyrics-callout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tvos-17-music-now-playing-lyrics-callout.png"; sourceTree = "<group>"; };
+		984D444CA0BADA1BBF2D8C81 /* LongScreenWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongScreenWindowController.swift; sourceTree = "<group>"; };
+		A30847898D8E0EA0A6462C8F /* MenuBarContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarContentView.swift; sourceTree = "<group>"; };
+		A3DB9AB5F8EB12E793FC7E8B /* LyricLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricLine.swift; sourceTree = "<group>"; };
+		B9AA8EED2BAA87F332CE3C54 /* Canopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Canopy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C10645F3C32FFED1C958C86B /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		CA21829ED6F42B1D6DF98E04 /* LongScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongScreenView.swift; sourceTree = "<group>"; };
+		D6D4217AD977AE8FCE60C4A5 /* NowPlayingMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingMonitor.swift; sourceTree = "<group>"; };
+		E6D9027CDBF92823D8EA7FCA /* LongScreenWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongScreenWindow.swift; sourceTree = "<group>"; };
+		E87B5106C166906FC8C22009 /* q7w07w6ohga51.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q7w07w6ohga51.jpg; sourceTree = "<group>"; };
+		F38126BD6A98F86B9623869F /* NotchWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchWindowController.swift; sourceTree = "<group>"; };
+		FCE50DFF37657A9A2F02E5BA /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		FE8334B87EB89BE74E8136F0 /* LyricsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricsProvider.swift; sourceTree = "<group>"; };
+		FF357F74BE1DCD052FC28083 /* NowPlayingInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingInfo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		003D85E4D867632946ABC270 /* Notch */ = {
+			isa = PBXGroup;
+			children = (
+				91B3E2E424ABA117E8DF1571 /* NotchGeometry.swift */,
+				13A49EE797485AC04FC1A1D8 /* NotchPanel.swift */,
+				57FC035BC395EB8DDBD8D246 /* NotchPillView.swift */,
+				9199843B0AC4AEB2EA5965D4 /* NotchViewModel.swift */,
+				F38126BD6A98F86B9623869F /* NotchWindowController.swift */,
+			);
+			path = Notch;
+			sourceTree = "<group>";
+		};
+		09D7B425095288DAEE28ED11 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				FCE50DFF37657A9A2F02E5BA /* AppSettings.swift */,
+				8C45AC12475086A8C5BC239C /* LaunchAtLogin.swift */,
+				A30847898D8E0EA0A6462C8F /* MenuBarContentView.swift */,
+				60720079642BC2655178532F /* PreferencesView.swift */,
+				603E1FF6719A7271953BB644 /* PreferencesWindowController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		10CCA8EEFF3253B430734F2C /* LongScreen */ = {
+			isa = PBXGroup;
+			children = (
+				03A457338E72CD06ACC98CC2 /* AudioOutputMonitor.swift */,
+				0AF8FD411D918AF4ED013460 /* DisplaySleepAssertion.swift */,
+				CA21829ED6F42B1D6DF98E04 /* LongScreenView.swift */,
+				E6D9027CDBF92823D8EA7FCA /* LongScreenWindow.swift */,
+				984D444CA0BADA1BBF2D8C81 /* LongScreenWindowController.swift */,
+			);
+			path = LongScreen;
+			sourceTree = "<group>";
+		};
+		19F402095EB0598E81821D62 /* Idle */ = {
+			isa = PBXGroup;
+			children = (
+				2561C348486FEAD5434AB3A1 /* IdleActivityMonitor.swift */,
+			);
+			path = Idle;
+			sourceTree = "<group>";
+		};
+		31ADE558ACA2D25A80799E62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9AA8EED2BAA87F332CE3C54 /* Canopy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EBF8E27BE5E5FF113FB89DA /* NowPlaying */ = {
+			isa = PBXGroup;
+			children = (
+				636E4D251B28EFC57267D43E /* AppleScriptRunner.swift */,
+				8588214CF36A8293B0883E22 /* MusicAppSource.swift */,
+				FF357F74BE1DCD052FC28083 /* NowPlayingInfo.swift */,
+				D6D4217AD977AE8FCE60C4A5 /* NowPlayingMonitor.swift */,
+				55A787407C9CA408BBE631F8 /* NowPlayingSource.swift */,
+				60EB264B7AB41B76E560A1A4 /* SpotifyAppSource.swift */,
+			);
+			path = NowPlaying;
+			sourceTree = "<group>";
+		};
+		74A4D2220367ABEBA63677F1 /* Lyrics */ = {
+			isa = PBXGroup;
+			children = (
+				73FAD583D8307B6F04B28C27 /* LRCParser.swift */,
+				A3DB9AB5F8EB12E793FC7E8B /* LyricLine.swift */,
+				FE8334B87EB89BE74E8136F0 /* LyricsProvider.swift */,
+			);
+			path = Lyrics;
+			sourceTree = "<group>";
+		};
+		7CBB325553D1BB4DB410F2F7 = {
+			isa = PBXGroup;
+			children = (
+				D499232754A1734EF8BC8591 /* Canopy */,
+				31ADE558ACA2D25A80799E62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A34DDEFF3C5AA9449997350B /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				C10645F3C32FFED1C958C86B /* AppCoordinator.swift */,
+				207D6F21BDD73AB41B540B07 /* AppDelegate.swift */,
+				2D55AB70B004C48D970C70E1 /* GlobalHotKeyMonitor.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		D499232754A1734EF8BC8591 /* Canopy */ = {
+			isa = PBXGroup;
+			children = (
+				9329C737C6008DE0B02F21D0 /* CanopyApp.swift */,
+				E87B5106C166906FC8C22009 /* q7w07w6ohga51.jpg */,
+				971654765F2AFB5EBE16F201 /* tvos-17-music-now-playing-lyrics-callout.png */,
+				19F402095EB0598E81821D62 /* Idle */,
+				10CCA8EEFF3253B430734F2C /* LongScreen */,
+				74A4D2220367ABEBA63677F1 /* Lyrics */,
+				003D85E4D867632946ABC270 /* Notch */,
+				4EBF8E27BE5E5FF113FB89DA /* NowPlaying */,
+				09D7B425095288DAEE28ED11 /* Settings */,
+				A34DDEFF3C5AA9449997350B /* Support */,
+			);
+			path = Canopy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		742A81C495268F1B9996B6ED /* Canopy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFF50593E24A0B07500373D4 /* Build configuration list for PBXNativeTarget "Canopy" */;
+			buildPhases = (
+				D4ED8CA9197225CC42128CB0 /* Sources */,
+				DD86BA350B364D30868A59A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Canopy;
+			packageProductDependencies = (
+			);
+			productName = Canopy;
+			productReference = B9AA8EED2BAA87F332CE3C54 /* Canopy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84720B5316EA688958F2ED76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					742A81C495268F1B9996B6ED = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = F0DA05759B7439C9FF8244FE /* Build configuration list for PBXProject "Canopy" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 7CBB325553D1BB4DB410F2F7;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 31ADE558ACA2D25A80799E62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				742A81C495268F1B9996B6ED /* Canopy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD86BA350B364D30868A59A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2A02431826ED9FD6E917D8 /* q7w07w6ohga51.jpg in Resources */,
+				0B2CE3C598F77E56A328D2C0 /* tvos-17-music-now-playing-lyrics-callout.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4ED8CA9197225CC42128CB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAC7A9B66567CBC500ABA2B /* AppCoordinator.swift in Sources */,
+				508098F16DADF7E9958710B7 /* AppDelegate.swift in Sources */,
+				0AF1CF0C84F3A7926BAA180D /* AppSettings.swift in Sources */,
+				6F0B72ECCA7DCBBF35D92CCB /* AppleScriptRunner.swift in Sources */,
+				61769E4D45542C8A520C513E /* AudioOutputMonitor.swift in Sources */,
+				E21D049F27EBB80528554F5E /* CanopyApp.swift in Sources */,
+				6B6BF7C699FAE6602A59DCE6 /* DisplaySleepAssertion.swift in Sources */,
+				54427DFAD8412193FCA2A978 /* GlobalHotKeyMonitor.swift in Sources */,
+				6DBC1D311CA8145353A7247C /* IdleActivityMonitor.swift in Sources */,
+				3EBAA50068A2135CCAD54EA6 /* LRCParser.swift in Sources */,
+				0B3DEDA93BFC92D30A15197D /* LaunchAtLogin.swift in Sources */,
+				42AA9C651CBB55431CE53C4F /* LongScreenView.swift in Sources */,
+				83DF3D585BCED70BAAFD272F /* LongScreenWindow.swift in Sources */,
+				2CC7618EDE1D8DCCE89F2107 /* LongScreenWindowController.swift in Sources */,
+				0DB9386AC256944A17ADFEE5 /* LyricLine.swift in Sources */,
+				9860C00CB1EFD92C21567675 /* LyricsProvider.swift in Sources */,
+				30FDF3C68F6830962F4CDAFE /* MenuBarContentView.swift in Sources */,
+				337766B623DC3E11C91C5986 /* MusicAppSource.swift in Sources */,
+				E3AA85180B042396AF02C61A /* NotchGeometry.swift in Sources */,
+				39EABB3B85D004967A7EE7B4 /* NotchPanel.swift in Sources */,
+				3DF95F205E28AAE7C0B4D26B /* NotchPillView.swift in Sources */,
+				DC1AE2DBB89860E6F24FA2F2 /* NotchViewModel.swift in Sources */,
+				79D4DA463D24FDEB3FDC5618 /* NotchWindowController.swift in Sources */,
+				C5078103155239162BC33C1C /* NowPlayingInfo.swift in Sources */,
+				EDA55A3ABC6F0647A6D96561 /* NowPlayingMonitor.swift in Sources */,
+				857E9268A11856D6B710CC5E /* NowPlayingSource.swift in Sources */,
+				1423C5B6661183396A71E2D4 /* PreferencesView.swift in Sources */,
+				2CBE766E14856F7E6FF7EECE /* PreferencesWindowController.swift in Sources */,
+				99ECAE382C6BB8858F95C0F1 /* SpotifyAppSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		15114EA8A8CD345AD39B7A0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5525D35C049844547ECC4698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Canopy/Canopy.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Canopy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.canopy.app;
+				PRODUCT_NAME = Canopy;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C9803AB1C486BF5103370A9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Canopy/Canopy.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Canopy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.canopy.app;
+				PRODUCT_NAME = Canopy;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E6569EEF11206375EC1D1961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFF50593E24A0B07500373D4 /* Build configuration list for PBXNativeTarget "Canopy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9803AB1C486BF5103370A9F /* Debug */,
+				5525D35C049844547ECC4698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F0DA05759B7439C9FF8244FE /* Build configuration list for PBXProject "Canopy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6569EEF11206375EC1D1961 /* Debug */,
+				15114EA8A8CD345AD39B7A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84720B5316EA688958F2ED76 /* Project object */;
+}
